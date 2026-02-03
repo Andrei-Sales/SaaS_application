@@ -564,11 +564,13 @@ php artisan migrate:fresh --seed
 
 ## License
 
-This project is for demonstration and interview purposes.
+This project is for demonstration purposes.
 
 ## Author
 
-Built as a senior Laravel engineer interview project demonstrating:
+Andrei Justine Sales
+
+Built for project demonstrating:
 - Clean architecture
 - SOLID principles
 - Laravel best practices
