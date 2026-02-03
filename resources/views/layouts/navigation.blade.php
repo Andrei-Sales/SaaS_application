@@ -15,6 +15,14 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('invoices.index')" :active="request()->routeIs('invoices.*')">
+                        {{ __('Invoices') }}
+                    </x-nav-link>
+                    @can('manageSubscription', Auth::user()->company)
+                        <x-nav-link :href="route('subscriptions.index')" :active="request()->routeIs('subscriptions.*')">
+                            {{ __('Subscription') }}
+                        </x-nav-link>
+                    @endcan
                 </div>
             </div>
 
