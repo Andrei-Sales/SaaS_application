@@ -570,7 +570,7 @@ This project is for demonstration purposes.
 
 Andrei Justine Sales
 
-Built for project demonstrating:
+## Built for project demonstrating
 - Clean architecture
 - SOLID principles
 - Laravel best practices
